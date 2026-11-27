@@ -2,7 +2,7 @@
 import MyBar from './components/view/mybar.vue'
 import MainContent from './components/view/main.vue'
 import evaluationfrom from './components/view/evaluationfrom.vue'
-import Signup from './page/signup.vue'
+import signup from './pages/signup.vue'
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import Signup from './page/signup.vue'
     <MyBar />
   </header>
   <main>
-    <Signup />
+    <signup />
   </main>
   <evaluationfrom />
   <footer>

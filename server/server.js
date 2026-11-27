@@ -1,11 +1,11 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import cors from 'cors';
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
 
 const app = express();
 const port = 3000;
 
-// เปิดใช้งาน CORS เพื่ออนุญาตการเข้าถึงจาก frontend
+//เปิดใช้งาน CORS เพื่ออนุญาตการเข้าถึงจาก frontend
 app.use(cors({
   origin: 'http://localhost:5173', // หรือใช้ "*" ในกรณีทดสอบเฉพาะ
   credentials: true
@@ -13,9 +13,7 @@ app.use(cors({
 
 // แปลง JSON body
 app.use(bodyParser.json());
-
 const users = []; // จำลองฐานข้อมูล
-
 // ตัวอย่าง GET
 app.get('/users', (req, res) => {
   res.json(users);

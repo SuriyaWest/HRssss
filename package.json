@@ -1,0 +1,29 @@
+{
+  "name": "hrsystem-suriya",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.4",
+    "body-parser": "^2.4.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "tailwindcss": "^4.3.4",
+    "vue": "^3.5.42"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vitejs/plugin-vue-jsx": "^5.1.6",
+    "vite": "^8.2.2",
+    "vite-plugin-vue-devtools": "^8.2.1"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  }
+}
